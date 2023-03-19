@@ -1,0 +1,219 @@
+*
+{
+    font-family: Arial,Sans-serif;
+}
+
+body
+{
+    padding-top: 80px;
+    padding-bottom: 3000px;
+    bottom: 3px;
+}
+
+.Web-Page
+{
+    position: absolute;
+    display: grid;
+    grid-template-columns: 251.8px 1fr 251.8px;
+    left:5px;
+    right: 5px;
+}
+.Content
+{
+    position: relative;
+    background-color: lightpink;
+    height: 100%;
+    border-left: 2px solid rgba(0,0,0,0.25);
+    border-right: 2px solid rgba(0,0,0,0.25);
+
+}
+.Left-Ad
+{
+    position: relative;
+    /* background-color: lightsteelblue; */
+    height: 100%;
+}
+.Right-Ad
+{
+    padding-top: 200px;
+    position: relative;
+    /* background-color: lightsteelblue; */
+    height: 100%;
+}
+.RAd-1
+{
+    background-color: gray;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+.Right-1
+{
+    height: 200px;
+    width: 230px;
+    object-fit: cover;
+    object-position: center;
+    border: 2px solid black;
+    padding: 1px 1px 1px 1px;
+}
+
+.RAd-2
+{
+    margin-top: 80px;
+    /* background-color: gray; */
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+.Right-2
+{
+    height: 300px;
+    width: 230px;
+    object-fit: cover;
+    object-position: center;
+    border: 2px solid black;
+    padding: 1px 1px 1px 1px;
+}
+
+.LAd-1
+{
+    margin-top: 80px;
+    /* background-color: gray; */
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+.Left-1
+{
+    height: 300px;
+    width: 230px;
+    object-fit: cover;
+    object-position: center;
+    border: 2px solid black;
+    padding: 1px 1px 1px 1px;
+}
+
+.LAd-2
+{
+    margin-top: 70px;
+    /* background-color: gray; */
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+.Left-2
+{
+    height: 200px;
+    width: 230px;
+    object-fit: cover;
+    object-position: center;
+    border: 2px solid black;
+    padding: 1px 1px 1px 1px;
+}
+
+.Content
+{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding-top: 40px;
+}
+.Heading, .Sub-Heading, .Information-1
+{
+    /* border: 1px solid black; */
+    padding-left: 40px;
+}
+.Main-Heading
+{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0px;
+    padding-bottom: 10px;
+}
+.Support-Heading
+{
+    font-size: 15px;
+    font-weight: 500px;
+    margin: 0px;
+    padding-bottom: 20px;
+}
+.Information-1
+{
+    display: flex;
+    justify-content: space-around;
+}
+.Info-1
+{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    text-align: justify;
+}
+.Section-1
+{
+    display: flex;
+    flex-direction: column;
+}
+.Question
+{
+    font-size: 18px;
+    font-weight: 600;
+}
+.Answer
+{
+    text-indent: 30px;
+}
+.Image
+{
+    
+    display: flex;
+    flex: 1;
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    object-position: center;
+    justify-content: flex-end;
+    padding-right: 40px;
+    padding-top: 40px;
+    
+}
+.Pic-1
+{
+    width: 450px;
+    height: auto;
+}
+
+.CAD-1
+{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+.CAD-2
+{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+.Center
+{
+    width: 400px;
+    height: 100px;
+    object-fit:cover;
+    object-position: center;
+    border: 2px solid black;
+    padding: 1px 1px 1px 1px;
+}
+.Center-2
+{
+    
+    background-color: white;
+    object-fit: cover;
+    border: 2px solid black;
+    object-position: center;
+    padding: 1px 1px 1px 1px;
+
+}
